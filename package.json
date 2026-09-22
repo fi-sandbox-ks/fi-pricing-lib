@@ -1,0 +1,23 @@
+{
+  "name": "fi-pricing-lib",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pricing calculation library — Node.js library, sample repository with medium test coverage.",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "27.0.6"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageReporters": [
+      "text-summary",
+      "lcov",
+      "json-summary"
+    ]
+  }
+}
